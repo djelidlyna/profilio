@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)file:///C:/Users/Dell/Desktop/ir/index.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Mon CV</title>
+    
+	<style>
+	h1{
+	border-left :15px solid purple}
+		.skills-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.skill {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 10px;
+			width: 300px;
+		}
+		.skill-name {
+			font-size: 16px;
+			font-weight: bold;
+			margin-right: 10px;
+		}
+		.skill-bar {
+			width: 200px;
+			height: 20px;
+			border-radius: 10px;
+			background-color: gray;
+			position: relative;
+			overflow: hidden;
+		}
+		.skill-bar-fill {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			background-color: purple;
+			animation: mymove;
+		}
+		.skill-icon {
+			font-size: 20px;
+			color: purple;
+			margin-right: 10px;
+			transform: translateX(-20px);
+			opacity: 0;
+			animation: icon-appear 1s ease-out forwards;
+		}
+		programation fill {
+			from {width: 0;}
+			to {width: 100%;}
+		}
+		@keyframes icon-appear {
+			from {transform: translateX(-20px); opacity: 0;}
+			to {transform: translateX(0); opacity: 1;}
+		}
+		
+	#ex1{
+	background-color: #bfbfbf}
+        
+        header {
+            background-color: #b3b3cc;
+            color: white;
+            padding: 40px;
+            text-align: left-side;
+			
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            font-weight: normal;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #52527a;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        ul {
+            font-size: 18px;
+            margin: 0;
+            padding-left: 20px;
+        }
+		progress-container {
+			width: 100px;
+			height: 100px;
+			position: relative;
+			display: inline-block;
+			margin: 10px;
+		}
+		  a {
+			padding: 50px;
+			color: white;
+			background-color: purple;
+			text-decoration: none;
+			border-radius: 20px;
+			position: relative;
+			right: -1200px;
+			top: 200px;
+		 }
+
+	 a:hover{
+			color: purple;
+			background-color: gainsboro;
+		}
+    </style>
+</head>
+<body>
+
+
+
+    <header>
+	<img src="./Mon CV_files/imgo.pnj.webp" width="150" height="150" align="right">
+        <h1>CV de djelid lyna </h1>
+        <h2>ETUDIANTE A L'USTHB</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index2.html#about">informations</a></li>
+            <li><a href="index2.html#experiances">parcours academiques</a></li>
+            <li><a href="index2.html#skills">competances</a></li>
+            
+        </ul>
+    </nav>
+    <section id="about">
+        <h1><div id="ex1">INFORMATIONS</div></h1>
+       <h3><font color="#b3b3cc"> N</font><span>OM : <font color="#990099">D</font>jelid</span></h3> 
+	   
+	   <h3><font color="#b3b3cc">P</font>RENOM : <font color="#990099">L</font>yna <font color="#990099"></font></h3>
+	   <h3><font color="#b3b3cc">M</font>ATRICULE: 222231648405</h3>
+       <h3><font color="#b3b3cc">A</font>NNE D'EXPERIANCE: 2 ANS </h3>
+       <h3><font color="#b3b3cc">A</font>ge: 20 ans </h3>
+	   
+	  
+    </h3></section>
+    <section id="experiances">
+	<h1><div id="ex1">PARCORS ACADEMIQUE</div></h1>
+        <ul><li><h2>*BACCALUREAT SCIENTIFIQUE  ANNEE 2022 </h2></li>
+            <br><br>
+            <li><h2><p>*DEUXIEME  ANNEE LICENSE DANS LE DOMAINE D'INFORMATIQUE A L'UNIVERSITE DES SCIENCES ET DE LA TECHNOLOGIE HOUARI BOUMEDIANE SYSTEM LMD</p></h2></li><p></p></ul>
+		 
+
+       
+	
+    </section>
+    <section id="skills">
+        <div id="ex1"><h1>COMPETANCES</h1></div>
+		<script src="./Mon CV_files/xxxxxxxxxx.js.télécharger" crossorigin="anonymous"></script>
+        
+
+	<div class="skills-container">
+		<div class="skill">
+			<div class="skill-icon"><i class="fas fa-code"></i></div>
+			<div class="skill-name">Programmation</div>
+			<div class="skill-bar">
+				<div class="skill-bar-fill" style="width:80%; animation-duration: 2s;"></div>
+			</div>
+		</div>
+		<div class="skill">
+			<div class="skill-icon"><i class="fas fa-palette"></i></div>
+			<div class="skill-name">HTML</div>
+			<div class="skill-bar">
+				<div class="skill-bar-fill" style="width:90%;"></div>
+			</div>
+		</div>
+		<h3>les langues</h3>
+		
+		<div class="skill">
+			<div class="skill-icon"><i class="fas fa-code"></i></div>
+			<div class="skill-name"> FRANCAIS</div>
+			<div class="skill-bar">
+				<div class="skill-bar-fill" style="width:95%;"></div>
+			</div>
+			</div>
+			<div class="skill">
+			<div class="skill-icon"><i class="fas fa-code"></i></div>
+			<div class="skill-name"> ENGLAIS</div>
+			<div class="skill-bar">
+				<div class="skill-bar-fill" style="width:80%;"></div>
+			</div>
+			</div>
+		
+
+                   </div>
+				</section>
+				 <a href="index.html">home</a>
+			</body>
+			</html>

@@ -1,0 +1,58 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgba(8, 3, 56, 0.16);
+}
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 40px;
+    text-align: center;
+}
+img {
+    
+    max-width: 200px;
+}
+h1{
+    color: plum;
+    font-size: 50px;
+}
+p{
+    color:white;
+    font-size: 30px;
+}
+a{
+    color: purple;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 40px;
+    border-radius: 20px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    
+    
+}
+
+#bi{
+    padding: 50px;
+    color: white;
+    background-color: purple;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    right: -1200px;
+    top: 200px;
+ }
+
+#bi:hover{
+    color: purple;
+    background-color: gainsboro;
+}
